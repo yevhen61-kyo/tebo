@@ -1,0 +1,228 @@
+{
+    "_events": {},
+    "_eventsCount": 1,
+    "_binaryType": "nodebuffer",
+    "_closeCode": 1006,
+    "_closeFrameReceived": false,
+    "_closeFrameSent": false,
+    "_closeMessage": {
+        "type": "Buffer",
+        "data": []
+    },
+    "_closeTimer": null,
+    "_errorEmitted": false,
+    "_extensions": {},
+    "_paused": false,
+    "_protocol": "",
+    "_readyState": 1,
+    "_receiver": {
+        "_events": {},
+        "_writableState": {
+            "highWaterMark": 16384,
+            "length": 0,
+            "corked": 0,
+            "writelen": 0,
+            "bufferedIndex": 0,
+            "pendingcb": 0
+        },
+        "_allowSynchronousEvents": true,
+        "_binaryType": "nodebuffer",
+        "_extensions": {},
+        "_isServer": false,
+        "_maxPayload": 104857600,
+        "_skipUTF8Validation": false,
+        "_bufferedBytes": 0,
+        "_buffers": [],
+        "_compressed": false,
+        "_payloadLength": 0,
+        "_fragmented": 0,
+        "_masked": false,
+        "_fin": false,
+        "_opcode": 0,
+        "_totalPayloadLength": 0,
+        "_messageLength": 0,
+        "_fragments": [],
+        "_errored": false,
+        "_loop": false,
+        "_state": 0,
+        "_eventsCount": 6
+    },
+    "_sender": {
+        "_extensions": {},
+        "_socket": {
+            "_tlsOptions": {
+                "pipe": false,
+                "secureContext": {
+                    "context": {}
+                },
+                "isServer": false,
+                "requestCert": true,
+                "rejectUnauthorized": true
+            },
+            "_secureEstablished": true,
+            "_securePending": false,
+            "_newSessionPending": false,
+            "_controlReleased": true,
+            "secureConnecting": false,
+            "_SNICallback": null,
+            "servername": "mainnet.helius-rpc.com",
+            "alpnProtocol": false,
+            "authorized": true,
+            "authorizationError": null,
+            "encrypted": true,
+            "_events": {
+                "close": [
+                    null,
+                    null
+                ],
+                "end": [
+                    null,
+                    null
+                ],
+                "newListener": [
+                    null,
+                    null
+                ]
+            },
+            "_eventsCount": 6,
+            "connecting": false,
+            "_hadError": false,
+            "_parent": null,
+            "_host": "mainnet.helius-rpc.com",
+            "_closeAfterHandlingError": false,
+            "_readableState": {
+                "highWaterMark": 16384,
+                "buffer": [],
+                "bufferIndex": 0,
+                "length": 0,
+                "pipes": [],
+                "awaitDrainWriters": null
+            },
+            "_writableState": {
+                "highWaterMark": 16384,
+                "length": 0,
+                "corked": 0,
+                "writelen": 0,
+                "bufferedIndex": 0,
+                "pendingcb": 0
+            },
+            "allowHalfOpen": false,
+            "_sockname": null,
+            "_pendingData": null,
+            "_pendingEncoding": "",
+            "_server": null,
+            "ssl": {
+                "_parent": {
+                    "reading": true,
+                    "onconnection": null
+                },
+                "_parentWrap": null,
+                "_secureContext": {
+                    "context": {}
+                },
+                "reading": true
+            },
+            "_requestCert": true,
+            "_rejectUnauthorized": true,
+            "parser": null,
+            "_httpMessage": null,
+            "autoSelectFamilyAttemptedAddresses": [
+                "172.64.151.87:443"
+            ],
+            "timeout": 0
+        },
+        "_firstFragment": true,
+        "_compress": false,
+        "_bufferedBytes": 0,
+        "_queue": [],
+        "_state": 0
+    },
+    "_socket": {
+        "_tlsOptions": {
+            "pipe": false,
+            "secureContext": {
+                "context": {}
+            },
+            "isServer": false,
+            "requestCert": true,
+            "rejectUnauthorized": true
+        },
+        "_secureEstablished": true,
+        "_securePending": false,
+        "_newSessionPending": false,
+        "_controlReleased": true,
+        "secureConnecting": false,
+        "_SNICallback": null,
+        "servername": "mainnet.helius-rpc.com",
+        "alpnProtocol": false,
+        "authorized": true,
+        "authorizationError": null,
+        "encrypted": true,
+        "_events": {
+            "close": [
+                null,
+                null
+            ],
+            "end": [
+                null,
+                null
+            ],
+            "newListener": [
+                null,
+                null
+            ]
+        },
+        "_eventsCount": 6,
+        "connecting": false,
+        "_hadError": false,
+        "_parent": null,
+        "_host": "mainnet.helius-rpc.com",
+        "_closeAfterHandlingError": false,
+        "_readableState": {
+            "highWaterMark": 16384,
+            "buffer": [],
+            "bufferIndex": 0,
+            "length": 0,
+            "pipes": [],
+            "awaitDrainWriters": null
+        },
+        "_writableState": {
+            "highWaterMark": 16384,
+            "length": 0,
+            "corked": 0,
+            "writelen": 0,
+            "bufferedIndex": 0,
+            "pendingcb": 0
+        },
+        "allowHalfOpen": false,
+        "_sockname": null,
+        "_pendingData": null,
+        "_pendingEncoding": "",
+        "_server": null,
+        "ssl": {
+            "_parent": {
+                "reading": true,
+                "onconnection": null
+            },
+            "_parentWrap": null,
+            "_secureContext": {
+                "context": {}
+            },
+            "reading": true
+        },
+        "_requestCert": true,
+        "_rejectUnauthorized": true,
+        "parser": null,
+        "_httpMessage": null,
+        "autoSelectFamilyAttemptedAddresses": [
+            "172.64.151.87:443"
+        ],
+        "timeout": 0
+    },
+    "_bufferedAmount": 0,
+    "_isServer": false,
+    "_redirects": 0,
+    "_autoPong": true,
+    "_url": "wss://mainnet.helius-rpc.com/?api-key=adcb5efb-1e8d-4b33-8e77-6b9b4e009b73",
+    "_req": null
+}
